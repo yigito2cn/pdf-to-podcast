@@ -1,0 +1,59 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# User inputs and generated job data
+input/
+work/
+output/
+audio/
+book_audit/
+cleaned_chunks/
+cleaned_text/
+raw_text/
+text_chunks/
+tts_audio/
+tts_audio_chunks/
+tts_continuation_audio/
+tts_continuation_chunks/
+tts_partial_audio/
+tts_partial_chunks/
+tts_text_chunks/
+
+# Generated media and documents
+*.wav
+*.mp3
+*.pdf
+
+# Generated reports, manifests, and local text artifacts
+*_report.json
+cleaning_report.json
+project_inventory.json
+pipeline_inventory.txt
+available_groq_models.txt
+partial_cleaned_text_*.txt
+pdf_sample_*.txt
+podcast_*.txt
+tts_*_manifest.json
+tts_*_merged.txt
+
+# Historical and experimental copies
+*_backup.py
+*_broken_backup.py
+*_current_backup.py
+*_cleaner_copy.py
+*_before_*.py
+*_old.py
+*_recovered.py
+*_backup.txt
+*_problematic.txt

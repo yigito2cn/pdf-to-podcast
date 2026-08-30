@@ -1,0 +1,6 @@
+PyMuPDF==1.28.2
+python-dotenv==1.2.3
+google-genai==2.20.0
+groq==1.7.0
+reportlab==5.0.1
+edge-tts==7.2.8
