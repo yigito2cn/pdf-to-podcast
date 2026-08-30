@@ -1,3 +1,5 @@
+<img src="assets/pdf-to-podcast-banner.png" alt="PDF to Podcast" width="100%">
+
 # PDF to Podcast
 
 PDF sayfalarindan temiz metin, Read Aloud PDF ve podcast sesi ureten,
